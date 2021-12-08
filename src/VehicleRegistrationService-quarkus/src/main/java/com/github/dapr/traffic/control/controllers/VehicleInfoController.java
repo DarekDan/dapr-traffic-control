@@ -25,7 +25,7 @@ public class VehicleInfoController {
     @Path("/{licenseNumber}")
     @Produces(MediaType.APPLICATION_JSON)
     public Uni<VehicleInfo> getVeicleInfo(String licenseNumber) {
-        logger.info("Request received");
+        logger.info("Request received " + licenseNumber);
         VehicleInfo info = vehicleInfoRepository.getVehicleInfo(licenseNumber);
         return Uni.createFrom().item(info);
     }

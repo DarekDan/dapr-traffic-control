@@ -1,3 +1,4 @@
+/*
 package com.github.dapr.traffic.control;
 
 import io.quarkus.runtime.Quarkus;
@@ -22,3 +23,4 @@ public class Main {
         }
     }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package com.github.dapr.traffic.control;
 
 import io.dapr.client.DaprClient;
@@ -20,3 +21,4 @@ public class DaprConfig {
         return build;
     }
 }
+*/
